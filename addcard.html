@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="website.css">  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+	Login
+  </title>
+</head>
+<body>
+  <h1>Sign Up</h1>
+
+  <form action="login.html">
+  <div class="container">
+    <h2>Card Details</h2>
+    <p>Please fill in the details to add your card.</p>
+
+    <label for="CardNo:"><b>Card No:</b>
+    <input type="text" placeholder="Enter Card No:" id="CardNo:" required></label>
+
+    <label for="Expiry"><b>Expiry: </b>
+    <input type="date" id="Expiry" required></label>
+
+    <label for="CVV"><b>CVV: </b>
+    <input type="password" placeholder="CVV" id="CVV" required></label>
+
+    <button class="clickable" type="submit"  onclick="window.location.href='pay_or_request.html'">Add</button>
+    <h3><a href="pay_or_request.html">Skip</a></h3>
+
+  </div>
+</form>
+
+</body>
+</html>
